@@ -4,6 +4,8 @@
 You can find the brief details on blog here:
 http://journeytoios.wordpress.com/2015/01/03/nhautocompletetextfield/
 
+<img src="https://journeytoios.files.wordpress.com/2015/01/ios-simulator-screen-shot-03-jan-2015-4-38-10-am.png" alt="Runtime View">
+
 <b>How to integrate:</b>
 
 All you have to take care of the two protocols
