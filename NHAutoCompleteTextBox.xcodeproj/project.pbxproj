@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BF61F911A588DC30098E7A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF61F901A588DC30098E7A4 /* Foundation.framework */; };
+		6BF61F931A588DC30098E7A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF61F921A588DC30098E7A4 /* CoreGraphics.framework */; };
+		6BF61F951A588DC30098E7A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF61F941A588DC30098E7A4 /* UIKit.framework */; };
+		6BF61F9B1A588DC30098E7A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BF61F991A588DC30098E7A4 /* InfoPlist.strings */; };
+		6BF61F9D1A588DC30098E7A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF61F9C1A588DC30098E7A4 /* main.m */; };
+		6BF61FA11A588DC30098E7A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF61FA01A588DC30098E7A4 /* AppDelegate.m */; };
+		6BF61FAC1A588DC30098E7A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF61FAB1A588DC30098E7A4 /* Images.xcassets */; };
+		6BF61FB31A588DC30098E7A4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF61FB21A588DC30098E7A4 /* XCTest.framework */; };
+		6BF61FB41A588DC30098E7A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF61F901A588DC30098E7A4 /* Foundation.framework */; };
+		6BF61FB51A588DC30098E7A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF61F941A588DC30098E7A4 /* UIKit.framework */; };
+		6BF61FBD1A588DC30098E7A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BF61FBB1A588DC30098E7A4 /* InfoPlist.strings */; };
+		6BF61FBF1A588DC30098E7A4 /* NHAutoCompleteTextBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF61FBE1A588DC30098E7A4 /* NHAutoCompleteTextBoxTests.m */; };
+		6BF61FDF1A588DF80098E7A4 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF61FCA1A588DF80098E7A4 /* DataManager.m */; };
+		6BF61FE01A588DF80098E7A4 /* UIColor+NHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF61FCD1A588DF80098E7A4 /* UIColor+NHExtension.m */; };
+		6BF61FE11A588DF80098E7A4 /* UILabel+Boldify.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF61FCF1A588DF80098E7A4 /* UILabel+Boldify.m */; };
+		6BF61FE21A588DF80098E7A4 /* UIView+NHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF61FD11A588DF80098E7A4 /* UIView+NHExtension.m */; };
+		6BF61FE31A588DF80098E7A4 /* NHAutoCompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF61FD61A588DF80098E7A4 /* NHAutoCompleteTextField.m */; };
+		6BF61FE41A588DF80098E7A4 /* Maple Leaf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF61FD91A588DF80098E7A4 /* Maple Leaf@2x.png */; };
+		6BF61FE51A588DF80098E7A4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF61FDB1A588DF80098E7A4 /* Main_iPad.storyboard */; };
+		6BF61FE61A588DF80098E7A4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF61FDC1A588DF80098E7A4 /* Main_iPhone.storyboard */; };
+		6BF61FE71A588DF80098E7A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF61FDE1A588DF80098E7A4 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BF61FB61A588DC30098E7A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BF61F851A588DC30098E7A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF61F8C1A588DC30098E7A4;
+			remoteInfo = NHAutoCompleteTextBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BF61F8D1A588DC30098E7A4 /* NHAutoCompleteTextBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHAutoCompleteTextBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF61F901A588DC30098E7A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BF61F921A588DC30098E7A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BF61F941A588DC30098E7A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BF61F981A588DC30098E7A4 /* NHAutoCompleteTextBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NHAutoCompleteTextBox-Info.plist"; sourceTree = "<group>"; };
+		6BF61F9A1A588DC30098E7A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BF61F9C1A588DC30098E7A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BF61F9E1A588DC30098E7A4 /* NHAutoCompleteTextBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NHAutoCompleteTextBox-Prefix.pch"; sourceTree = "<group>"; };
+		6BF61F9F1A588DC30098E7A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BF61FA01A588DC30098E7A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BF61FAB1A588DC30098E7A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6BF61FB11A588DC30098E7A4 /* NHAutoCompleteTextBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHAutoCompleteTextBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF61FB21A588DC30098E7A4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6BF61FBA1A588DC30098E7A4 /* NHAutoCompleteTextBoxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NHAutoCompleteTextBoxTests-Info.plist"; sourceTree = "<group>"; };
+		6BF61FBC1A588DC30098E7A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BF61FBE1A588DC30098E7A4 /* NHAutoCompleteTextBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHAutoCompleteTextBoxTests.m; sourceTree = "<group>"; };
+		6BF61FC91A588DF80098E7A4 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		6BF61FCA1A588DF80098E7A4 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		6BF61FCC1A588DF80098E7A4 /* UIColor+NHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NHExtension.h"; sourceTree = "<group>"; };
+		6BF61FCD1A588DF80098E7A4 /* UIColor+NHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NHExtension.m"; sourceTree = "<group>"; };
+		6BF61FCE1A588DF80098E7A4 /* UILabel+Boldify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Boldify.h"; sourceTree = "<group>"; };
+		6BF61FCF1A588DF80098E7A4 /* UILabel+Boldify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Boldify.m"; sourceTree = "<group>"; };
+		6BF61FD01A588DF80098E7A4 /* UIView+NHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NHExtension.h"; sourceTree = "<group>"; };
+		6BF61FD11A588DF80098E7A4 /* UIView+NHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NHExtension.m"; sourceTree = "<group>"; };
+		6BF61FD31A588DF80098E7A4 /* NHConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHConstants.h; sourceTree = "<group>"; };
+		6BF61FD51A588DF80098E7A4 /* NHAutoCompleteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAutoCompleteTextField.h; sourceTree = "<group>"; };
+		6BF61FD61A588DF80098E7A4 /* NHAutoCompleteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAutoCompleteTextField.m; sourceTree = "<group>"; };
+		6BF61FD71A588DF80098E7A4 /* NHMainHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHMainHeader.h; sourceTree = "<group>"; };
+		6BF61FD91A588DF80098E7A4 /* Maple Leaf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Maple Leaf@2x.png"; sourceTree = "<group>"; };
+		6BF61FDB1A588DF80098E7A4 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		6BF61FDC1A588DF80098E7A4 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		6BF61FDD1A588DF80098E7A4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BF61FDE1A588DF80098E7A4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BF61F8A1A588DC30098E7A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF61F931A588DC30098E7A4 /* CoreGraphics.framework in Frameworks */,
+				6BF61F951A588DC30098E7A4 /* UIKit.framework in Frameworks */,
+				6BF61F911A588DC30098E7A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF61FAE1A588DC30098E7A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF61FB31A588DC30098E7A4 /* XCTest.framework in Frameworks */,
+				6BF61FB51A588DC30098E7A4 /* UIKit.framework in Frameworks */,
+				6BF61FB41A588DC30098E7A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BF61F841A588DC30098E7A4 = {
+			isa = PBXGroup;
+			children = (
+				6BF61F961A588DC30098E7A4 /* NHAutoCompleteTextBox */,
+				6BF61FB81A588DC30098E7A4 /* NHAutoCompleteTextBoxTests */,
+				6BF61F8F1A588DC30098E7A4 /* Frameworks */,
+				6BF61F8E1A588DC30098E7A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BF61F8E1A588DC30098E7A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BF61F8D1A588DC30098E7A4 /* NHAutoCompleteTextBox.app */,
+				6BF61FB11A588DC30098E7A4 /* NHAutoCompleteTextBoxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BF61F8F1A588DC30098E7A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF61F901A588DC30098E7A4 /* Foundation.framework */,
+				6BF61F921A588DC30098E7A4 /* CoreGraphics.framework */,
+				6BF61F941A588DC30098E7A4 /* UIKit.framework */,
+				6BF61FB21A588DC30098E7A4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BF61F961A588DC30098E7A4 /* NHAutoCompleteTextBox */ = {
+			isa = PBXGroup;
+			children = (
+				6BF61FC81A588DF80098E7A4 /* DataManager */,
+				6BF61FCB1A588DF80098E7A4 /* Extensions */,
+				6BF61FD21A588DF80098E7A4 /* NHClasses */,
+				6BF61FD81A588DF80098E7A4 /* Resources */,
+				6BF61FDA1A588DF80098E7A4 /* Views */,
+				6BF61F9F1A588DC30098E7A4 /* AppDelegate.h */,
+				6BF61FA01A588DC30098E7A4 /* AppDelegate.m */,
+				6BF61FAB1A588DC30098E7A4 /* Images.xcassets */,
+				6BF61F971A588DC30098E7A4 /* Supporting Files */,
+			);
+			path = NHAutoCompleteTextBox;
+			sourceTree = "<group>";
+		};
+		6BF61F971A588DC30098E7A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BF61F981A588DC30098E7A4 /* NHAutoCompleteTextBox-Info.plist */,
+				6BF61F991A588DC30098E7A4 /* InfoPlist.strings */,
+				6BF61F9C1A588DC30098E7A4 /* main.m */,
+				6BF61F9E1A588DC30098E7A4 /* NHAutoCompleteTextBox-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BF61FB81A588DC30098E7A4 /* NHAutoCompleteTextBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BF61FBE1A588DC30098E7A4 /* NHAutoCompleteTextBoxTests.m */,
+				6BF61FB91A588DC30098E7A4 /* Supporting Files */,
+			);
+			path = NHAutoCompleteTextBoxTests;
+			sourceTree = "<group>";
+		};
+		6BF61FB91A588DC30098E7A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BF61FBA1A588DC30098E7A4 /* NHAutoCompleteTextBoxTests-Info.plist */,
+				6BF61FBB1A588DC30098E7A4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BF61FC81A588DF80098E7A4 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6BF61FC91A588DF80098E7A4 /* DataManager.h */,
+				6BF61FCA1A588DF80098E7A4 /* DataManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6BF61FCB1A588DF80098E7A4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6BF61FCC1A588DF80098E7A4 /* UIColor+NHExtension.h */,
+				6BF61FCD1A588DF80098E7A4 /* UIColor+NHExtension.m */,
+				6BF61FCE1A588DF80098E7A4 /* UILabel+Boldify.h */,
+				6BF61FCF1A588DF80098E7A4 /* UILabel+Boldify.m */,
+				6BF61FD01A588DF80098E7A4 /* UIView+NHExtension.h */,
+				6BF61FD11A588DF80098E7A4 /* UIView+NHExtension.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6BF61FD21A588DF80098E7A4 /* NHClasses */ = {
+			isa = PBXGroup;
+			children = (
+				6BF61FD31A588DF80098E7A4 /* NHConstants.h */,
+				6BF61FD41A588DF80098E7A4 /* NHHelper */,
+				6BF61FD71A588DF80098E7A4 /* NHMainHeader.h */,
+			);
+			path = NHClasses;
+			sourceTree = "<group>";
+		};
+		6BF61FD41A588DF80098E7A4 /* NHHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6BF61FD51A588DF80098E7A4 /* NHAutoCompleteTextField.h */,
+				6BF61FD61A588DF80098E7A4 /* NHAutoCompleteTextField.m */,
+			);
+			path = NHHelper;
+			sourceTree = "<group>";
+		};
+		6BF61FD81A588DF80098E7A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6BF61FD91A588DF80098E7A4 /* Maple Leaf@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6BF61FDA1A588DF80098E7A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6BF61FDB1A588DF80098E7A4 /* Main_iPad.storyboard */,
+				6BF61FDC1A588DF80098E7A4 /* Main_iPhone.storyboard */,
+				6BF61FDD1A588DF80098E7A4 /* ViewController.h */,
+				6BF61FDE1A588DF80098E7A4 /* ViewController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BF61F8C1A588DC30098E7A4 /* NHAutoCompleteTextBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF61FC21A588DC30098E7A4 /* Build configuration list for PBXNativeTarget "NHAutoCompleteTextBox" */;
+			buildPhases = (
+				6BF61F891A588DC30098E7A4 /* Sources */,
+				6BF61F8A1A588DC30098E7A4 /* Frameworks */,
+				6BF61F8B1A588DC30098E7A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHAutoCompleteTextBox;
+			productName = NHAutoCompleteTextBox;
+			productReference = 6BF61F8D1A588DC30098E7A4 /* NHAutoCompleteTextBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BF61FB01A588DC30098E7A4 /* NHAutoCompleteTextBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF61FC51A588DC30098E7A4 /* Build configuration list for PBXNativeTarget "NHAutoCompleteTextBoxTests" */;
+			buildPhases = (
+				6BF61FAD1A588DC30098E7A4 /* Sources */,
+				6BF61FAE1A588DC30098E7A4 /* Frameworks */,
+				6BF61FAF1A588DC30098E7A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BF61FB71A588DC30098E7A4 /* PBXTargetDependency */,
+			);
+			name = NHAutoCompleteTextBoxTests;
+			productName = NHAutoCompleteTextBoxTests;
+			productReference = 6BF61FB11A588DC30098E7A4 /* NHAutoCompleteTextBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BF61F851A588DC30098E7A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Shahan;
+				TargetAttributes = {
+					6BF61FB01A588DC30098E7A4 = {
+						TestTargetID = 6BF61F8C1A588DC30098E7A4;
+					};
+				};
+			};
+			buildConfigurationList = 6BF61F881A588DC30098E7A4 /* Build configuration list for PBXProject "NHAutoCompleteTextBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BF61F841A588DC30098E7A4;
+			productRefGroup = 6BF61F8E1A588DC30098E7A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BF61F8C1A588DC30098E7A4 /* NHAutoCompleteTextBox */,
+				6BF61FB01A588DC30098E7A4 /* NHAutoCompleteTextBoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BF61F8B1A588DC30098E7A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF61FAC1A588DC30098E7A4 /* Images.xcassets in Resources */,
+				6BF61FE41A588DF80098E7A4 /* Maple Leaf@2x.png in Resources */,
+				6BF61FE51A588DF80098E7A4 /* Main_iPad.storyboard in Resources */,
+				6BF61FE61A588DF80098E7A4 /* Main_iPhone.storyboard in Resources */,
+				6BF61F9B1A588DC30098E7A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF61FAF1A588DC30098E7A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF61FBD1A588DC30098E7A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BF61F891A588DC30098E7A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF61FE21A588DF80098E7A4 /* UIView+NHExtension.m in Sources */,
+				6BF61FA11A588DC30098E7A4 /* AppDelegate.m in Sources */,
+				6BF61FE71A588DF80098E7A4 /* ViewController.m in Sources */,
+				6BF61FDF1A588DF80098E7A4 /* DataManager.m in Sources */,
+				6BF61FE11A588DF80098E7A4 /* UILabel+Boldify.m in Sources */,
+				6BF61F9D1A588DC30098E7A4 /* main.m in Sources */,
+				6BF61FE31A588DF80098E7A4 /* NHAutoCompleteTextField.m in Sources */,
+				6BF61FE01A588DF80098E7A4 /* UIColor+NHExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF61FAD1A588DC30098E7A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF61FBF1A588DC30098E7A4 /* NHAutoCompleteTextBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BF61FB71A588DC30098E7A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BF61F8C1A588DC30098E7A4 /* NHAutoCompleteTextBox */;
+			targetProxy = 6BF61FB61A588DC30098E7A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BF61F991A588DC30098E7A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF61F9A1A588DC30098E7A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BF61FBB1A588DC30098E7A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF61FBC1A588DC30098E7A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BF61FC01A588DC30098E7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BF61FC11A588DC30098E7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BF61FC31A588DC30098E7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NHAutoCompleteTextBox/NHAutoCompleteTextBox-Prefix.pch";
+				INFOPLIST_FILE = "NHAutoCompleteTextBox/NHAutoCompleteTextBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BF61FC41A588DC30098E7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NHAutoCompleteTextBox/NHAutoCompleteTextBox-Prefix.pch";
+				INFOPLIST_FILE = "NHAutoCompleteTextBox/NHAutoCompleteTextBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6BF61FC61A588DC30098E7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NHAutoCompleteTextBox.app/NHAutoCompleteTextBox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NHAutoCompleteTextBox/NHAutoCompleteTextBox-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NHAutoCompleteTextBoxTests/NHAutoCompleteTextBoxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6BF61FC71A588DC30098E7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NHAutoCompleteTextBox.app/NHAutoCompleteTextBox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NHAutoCompleteTextBox/NHAutoCompleteTextBox-Prefix.pch";
+				INFOPLIST_FILE = "NHAutoCompleteTextBoxTests/NHAutoCompleteTextBoxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BF61F881A588DC30098E7A4 /* Build configuration list for PBXProject "NHAutoCompleteTextBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF61FC01A588DC30098E7A4 /* Debug */,
+				6BF61FC11A588DC30098E7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF61FC21A588DC30098E7A4 /* Build configuration list for PBXNativeTarget "NHAutoCompleteTextBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF61FC31A588DC30098E7A4 /* Debug */,
+				6BF61FC41A588DC30098E7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6BF61FC51A588DC30098E7A4 /* Build configuration list for PBXNativeTarget "NHAutoCompleteTextBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF61FC61A588DC30098E7A4 /* Debug */,
+				6BF61FC71A588DC30098E7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BF61F851A588DC30098E7A4 /* Project object */;
+}
