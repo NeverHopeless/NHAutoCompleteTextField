@@ -4,6 +4,9 @@
 You can find the brief details on blog here:
 http://journeytoios.wordpress.com/2015/01/03/nhautocompletetextfield/
 
+and this control is also available here:
+https://www.cocoacontrols.com/controls/nhautocompletetextfield
+
 <img src="https://journeytoios.files.wordpress.com/2015/01/ios-simulator-screen-shot-03-jan-2015-4-38-10-am.png" alt="Runtime View">
 
 <b>How to integrate:</b>
