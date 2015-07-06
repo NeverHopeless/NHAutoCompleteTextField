@@ -12,6 +12,7 @@
 @implementation NHAutoCompleteTextField
 
 @synthesize suggestionListView;
+@synthesize suggestionTextField;
 @synthesize dataSourceDelegate;
 @synthesize dataFilterDelegate;
 @synthesize dropDownDirection;
