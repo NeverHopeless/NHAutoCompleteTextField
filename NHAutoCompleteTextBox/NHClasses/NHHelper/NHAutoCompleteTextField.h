@@ -47,12 +47,13 @@
 
 @interface NHAutoCompleteTextField : UIView<UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate>
 {
-    UITextField *suggestionTextField;
+    
 }
 
 @property (nonatomic, retain) NSString *filterString;
 @property (nonatomic, assign) NHDropDownDirection dropDownDirection;
 @property (nonatomic, retain) UITableView *suggestionListView;
+@property (nonatomic, retain) UITextField *suggestionTextField;
 @property (nonatomic, weak) id<NHAutoCompleteTextFieldDataSourceDelegate> dataSourceDelegate;
 @property (nonatomic, weak) id<NHAutoCompleteTextFieldDataFilterDelegate> dataFilterDelegate;
 
