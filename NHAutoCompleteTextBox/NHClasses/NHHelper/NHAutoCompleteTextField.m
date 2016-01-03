@@ -153,6 +153,9 @@
 -(void)textFieldDidEndEditing:(UITextField *)textField
 {
     [suggestionListView setHidden:YES];
+    if([dataSourceDelegate respondsToSelector:@selector(autoCompleteTextBox:textFieldDidEndEditing:)]){ //fh: ajout de ce delegate
+        [dataSourceDelegate autoCompleteTextBox:self textFieldDidEndEditing:textField];
+    }
 }
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField
